@@ -35,6 +35,6 @@ public class ToDoController {
             @RequestParam(required = false) String taskName,
             @RequestParam(required = false) String taskDescription
     ) {
-        ToDoService.updateList(taskNr, taskName, taskDescription);
+        toDoService.updateList(taskNr, taskName, taskDescription);
     }
 }
